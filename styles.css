@@ -12,21 +12,22 @@ img {
     text-align: center;
 }
 
-.block {
-    display: block;
-    margin: auto;
-    border-radius: 25px;
-    box-shadow: 0px 0px 20px gray;
-}
-
-.contents {
+.contents-menu {
     padding: 25px;
     font-size: 1.5rem;
 }
 
+.contents {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 #container {
+    display: block;
     margin: 2rem;
     border: 2px solid black;
     border-radius: 25px;
+    width: min-content;
     background-color: lightblue;
+    box-shadow: 0px 0px 20px gray;
 }
