@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {background-color:aliceblue;}
+        .center {
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            width:50%;
+            box-shadow: 0px 0px 20px gray;
+        }
+        img {
+            border-radius: 25px;
+        }
+        .block {
+            display:block;
+            margin: auto;
+            border-radius: 25px;
+            width: min(70%, 500px);
+            box-shadow: 0px 0px 20px gray;
+        }
+        #container {
+            margin-top: 2rem;
+            border: 2px solid black;
+            border-radius: 25px;
+            background-color: lightblue;
+        }
+        .contents {
+            padding: 25px;
+            font-size: 1.5rem;
+        }
+    </style>
 </head>
 <body>
-    <a href="../index.html">Home</a>
+    <h1><a href="../index.html"><img src="../images/recipes.jpg" alt="Home" height="120px"></a></h1>
+    <div id="container" class="block">
+        <h1>Peri Peri Chicken Rice</h1>
+        <img src="../images/peri-peri-chicken-ricejpg.jpg" alt="Peri Peri Chicken Rice">
+        <hr>
+        <h3>Description</h3>
+        <hr>
+        <p>This dish is a delicious and high protein meal you can add to your meal prep repetoir to say goodbye to boring chicken rice and brocoli.
+            It is easy and quick to prepare and will make your cuts a little less miserable.
+        </p>
+    </div>
 </body>
 </html>
