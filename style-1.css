@@ -13,11 +13,6 @@ a:link, a:visited, a:active {
     color: black;
 }
 
-.site-nav-button {
-    display: block;
-    margin: auto;
-}
-
 .center-text {
     text-align: center;
 }
