@@ -8,6 +8,16 @@ img {
     display: block;
 }
 
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.site-nav-button {
+    display: block;
+    margin: auto;
+}
+
 .center-text {
     text-align: center;
 }
